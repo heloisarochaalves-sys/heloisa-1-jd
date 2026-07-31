@@ -1,46 +1,85 @@
-<!DOCTYPE html> 
-<html lang="pt-br"> 
-         <head>
-          <meta charset="UTF-8"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-           <title>Flores</title>
-           <style>
-            header{
-                background-color: #082A12 ;
-                color:#ffffff;
-                text-align: center;
-                max-width: 800px;
-                margin: 0 auto;
-                padding: 4px;
-                   
-            }
-            img{
-              width: 200px;
-              height: 200px;
-            }
-            main{
-                background-color: #ffffff ;
-                color: #082A12;
-                 max-width: 800px;
-                margin: 0 auto;
-                padding: 5px;
-            }
-           </style>
- </head> 
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo das Flores Silvestres</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-        <header>
-            <h1>Flores silvestres:</h1> 
-              <p>Vou falar sobre diferentes flores.</p> 
-        <header>
 
-           <main>
-            <img src="Gemini_Generated_Image_jjxpy0jjxpy0jjxp (1).png" alt="Campo ensolarado repleto de flores silvestres coloridas como papoulas vermelhas, margaridas e alfazemas.">
+  <header class="hero">
+    <div class="hero-content">
+      <h1>🌸 Flores Silvestres</h1>
+      <p>Descubra a beleza e a liberdade da flora nativa</p>
+    </div>
+  </header>
 
-            
-          <h2>Meu primeiro post:</h2> 
-          <p>Por: Heloisa da Rocha</p>
-      <p>Seja bem-vindo ao meu site, aqui você vai saber várias coisas sobre flores silvestres.</p>         
-         </main>           
-       </body> 
- </html>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#especies">Espécies</a>
+    <a href="#cuidados">Dicas</a>
+  </nav>
+
+  <main class="container">
+    
+    <section id="sobre" class="about-section">
+      <div class="about-text">
+        <h2>O que são Flores Silvestres?</h2>
+        <p>
+          Flores silvestres são espécies que crescem espontaneamente na natureza, 
+          sem a intervenção direta do ser humano. Elas desempenham um papel vital 
+          no ecossistema, atraindo polinizadores como abelhas e borboletas.
+        </p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=600&q=80" alt="Campo de flores silvestres" class="about-img">
+    </section>
+
+    <section id="especies">
+      <h2>Espécies Populares</h2>
+      <div class="cards">
+        
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1560717845-968823efbee1?auto=format&fit=crop&w=400&q=80" alt="Margarida-do-Campo">
+          <div class="card-content">
+            <h3>Margarida-do-Campo</h3>
+            <p>Famosas por suas pétalas brancas e centro amarelo. Adoram sol pleno e solos bem drenados.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=400&q=80" alt="Girassol Silvestre">
+          <div class="card-content">
+            <h3>Girassol Silvestre</h3>
+            <p>Pequenos, vibrantes e cheios de energia. São excelentes para atrair pássaros e abelhas.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=400&q=80" alt="Lupino">
+          <div class="card-content">
+            <h3>Lupino</h3>
+            <p>Conhecidas por suas espigas altas de cores vibrantes como azul, roxo e rosa.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="cuidados">
+      <h2>Como Preservar</h2>
+      <ul>
+        <li><strong>Evite colher:</strong> Deixe as flores no seu habitat natural para que continuem se multiplicando.</li>
+        <li><strong>Plante sementes nativas:</strong> Crie um cantinho silvestre no seu quintal ou vaso.</li>
+        <li><strong>Proteja os polinizadores:</strong> Não use defensivos químicos agressivos no jardim.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Mundo das Flores Silvestres. Preservando a natureza.</p>
+  </footer>
+
+</body>
+</html>
